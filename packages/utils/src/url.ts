@@ -1,4 +1,4 @@
-import tlds from "tlds";
+import tlds from "tlds" with { type: "json" };
 
 const PROTOCOL_REGEX = /^[a-zA-Z]+:\/\//;
 const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
